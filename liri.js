@@ -6,7 +6,6 @@ var Spotify = require("node-spotify-api");
 var keys = require("./keys.js");
 var moment = require('moment');
 var fs = require("fs");
-var exec = require("child_process").execFile;
 
 var userCmd = process.argv[2];
 var userSearchItem = process.argv[3];
@@ -78,7 +77,6 @@ function concertSearch(query){
 
 //SPOTIFY SEARCH
 function songSearch(query){
-    console.log("[SongSearch] User Search passed: " +query);
     var spotify = new Spotify(keys.spotify);
 
     var category = 'track';   // easier to adjust if need to change down the line
@@ -94,6 +92,7 @@ function songSearch(query){
         var results = response.tracks.items;
         if (query != undefined){
             var songCount = 0;
+            console.log("\[Users Song Search Results\]\nHere are the Song results for \"" +query+ "\"\n");
             results.forEach(function(result){
                 songCount++;
                 console.log("\[Song #" +songCount+ "\]");
@@ -159,24 +158,23 @@ function batchedCommands(query){
         }
 
         console.log("\[COMMAND FILE CONTENT\]\n" +data);
-        console.log("\[END OF FILE CONTENT\]");
+        console.log("\[END OF FILE CONTENT\]\n");
 
-        var liriCmd = data.split(",");
+        var cmdList = data.split("\r\n");
 
-        cmd = liriCmd[0];
-        query = liriCmd[1];
-
-        console.log("Command: " +cmd);
-        console.log("Query: " +query);
-
-        executeCommand(cmd, query);
-
-
+        cmdList.forEach(function(cmd){
+            var liriCmd = cmd.split(",");
+            cmd = liriCmd[0];
+            query = liriCmd[1];
+            console.log("Command: " +cmd);
+            console.log("Query: " +query+ "\n");
+            executeCommand(cmd, query);
+        });
 
     })
 
     
 }
 
-console.log("User Command: " +userCmd+ "\nUser Search: " +userSearchItem);
+console.log("User Command: " +userCmd);
 executeCommand(userCmd, userSearchItem);
