@@ -32,9 +32,7 @@ switch(command){
 }
 
 
-
-
-// Get a listing of a specific artist band venues
+// START BAND VENUES - Get a listing of a specific artist band venues
 function concertSearch(){
     //set the artist to the user search term.  Default to "Foo Fighters" if no search term present
     var artist = (searchItem != undefined) ? searchItem : "Foo Fighters";   
@@ -64,9 +62,8 @@ function concertSearch(){
             }
             console.log(err.config);
         });
-    // END BAND VENUES
 }
-
+// END BAND VENUES
 
 //SPOTIFY SEARCH
 function songSearch(){
@@ -112,7 +109,37 @@ function songSearch(){
 }
 
 function movieSearch(){
-
+    //set the movie to the user search term.  Default to "Mr. Nobody" if no search term present
+    var movie = (searchItem != undefined) ? searchItem : "Mr. Nobody";   
+    
+    axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy")
+        .then(function(response) {
+            results = response.data;
+            (searchItem === undefined) ? console.log("\n\[Default Movie Chosen\]") : console.log("\n\[User Movie Search Results\]"); 
+            console.log("Here are the movie searh results for " +movie+ "\n");
+            // results.forEach(function(result){
+            console.log("  Title: " +results.Title);
+            console.log("  Year Released: " +results.Year);
+            console.log("  IMDB Rating: " +results.Ratings[0].Value);
+            console.log("  Rotten Tomatoes Rating: " +results.Ratings[1].Value);
+            console.log("  Country Produced In: " +results.Country);
+            console.log("  Language: " +results.Language);
+            console.log("  Plot: " +results.Plot);
+            console.log("  Cast: " +results.Actors);
+            // });
+        })
+        .catch(function(err){
+            if (err.response){
+                console.log("error:\n" +err.response.data);
+                console.log(err.response.status);
+                console.log(err.response.headers);
+            }else if (err.request){
+                console.log(err.request);
+            }else{
+                console.log("Error", err.message);
+            }
+            console.log(err.config);
+        });
 
 
 
