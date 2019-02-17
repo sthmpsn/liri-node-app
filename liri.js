@@ -176,5 +176,6 @@ function batchedCommands(query){
     
 }
 
+console.log("\[hal2000@ODYSSEY\] > Hello Dave...You're looking well today\n");  //2001 Space Odyssey joke
 console.log("User Command: " +userCmd);
 executeCommand(userCmd, userSearchItem);
