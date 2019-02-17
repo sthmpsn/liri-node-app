@@ -8,46 +8,50 @@ var moment = require('moment');
 var fs = require("fs");
 var exec = require("child_process").execFile;
 
-var command = process.argv[2];
-var searchItem = process.argv[3];
+var userCmd = process.argv[2];
+var userSearchItem = process.argv[3];
 
 
-switch(command){
-    case "concert-this":
-        concertSearch();
-        break;
+function executeCommand(cmd, query){
+    switch(cmd){
+        case "concert-this":
+            concertSearch(query);
+            break;
 
-    case "spotify-this-song":
-        songSearch();
-        break;
+        case "spotify-this-song":
+            songSearch(query);
+            break;
 
-    case "movie-this":
-        movieSearch();
-        break;
+        case "movie-this":
+            movieSearch(query);
+            break;
 
-    case "do-what-it-says":
-        batchedCommands();
-        break;
+        case "do-what-it-says":
+            batchedCommands(query);
+            break;
 
-    default:
-        console.log(`Valid commands are:
-        concert-this <artist/band name>
-        spotify-this-song <song name>
-        movie-this <movie name>
-        do-what-it-says
-        `); 
+        default:
+            console.log(`Valid commands are:
+            concert-this <artist/band name>
+            spotify-this-song <song name>
+            movie-this <movie name>
+            do-what-it-says
+            `); 
+    }
 }
 
-
 // START BAND VENUES - Get a listing of a specific artist band venues
-function concertSearch(){
+function concertSearch(query){
     //set the artist to the user search term.  Default to "Foo Fighters" if no search term present
-    var artist = (searchItem != undefined) ? searchItem : "Foo Fighters";   
+    var artist = (query != undefined) ? query : "Foo Fighters";   
     
-    axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp")
+    // Remove any encapsulating double quotes if present (like from the batch commands)
+    artist = artist.replace(/"/g,"");
+
+    axios.get('https://rest.bandsintown.com/artists/' + artist + '/events?app_id=codingbootcamp')
         .then(function(response) {
             results = response.data;
-            (searchItem === undefined) ? console.log("\n\[Default Artist Concert Chosen\]") : console.log("\n\[User Concert Search Results\]"); 
+            (query === undefined) ? console.log("\n\[Default Artist Concert Chosen\]") : console.log("\n\[User Concert Search Results\]"); 
             console.log("Here are the venues where " +artist+ " is playing\n");
             results.forEach(function(result){
                 console.log("Venue: " +result.venue.name);
@@ -73,11 +77,12 @@ function concertSearch(){
 // END BAND VENUES
 
 //SPOTIFY SEARCH
-function songSearch(){
+function songSearch(query){
+    console.log("[SongSearch] User Search passed: " +query);
     var spotify = new Spotify(keys.spotify);
 
     var category = 'track';   // easier to adjust if need to change down the line
-    var song = (searchItem != undefined) ? searchItem : 'The Sign';
+    var song = (query != undefined) ? query : 'The Sign';
     
     console.log("Song Search Query: " +song+ "\n");
 
@@ -87,7 +92,7 @@ function songSearch(){
         }
         
         var results = response.tracks.items;
-        if (searchItem != undefined){
+        if (query != undefined){
             var songCount = 0;
             results.forEach(function(result){
                 songCount++;
@@ -113,14 +118,14 @@ function songSearch(){
     });
 }
 
-function movieSearch(){
+function movieSearch(query){
     //set the movie to the user search term.  Default to "Mr. Nobody" if no search term present
-    var movie = (searchItem != undefined) ? searchItem : "Mr. Nobody";   
+    var movie = (query != undefined) ? query : "Mr. Nobody";   
     
     axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy")
         .then(function(response) {
             results = response.data;
-            (searchItem === undefined) ? console.log("\n\[Default Movie Chosen\]") : console.log("\n\[User Movie Search Results\]"); 
+            (query === undefined) ? console.log("\n\[Default Movie Chosen\]") : console.log("\n\[User Movie Search Results\]"); 
             console.log("Here are the movie searh results for " +movie+ "\n");
             console.log("  Title: " +results.Title);
             console.log("  Year Released: " +results.Year);
@@ -146,7 +151,7 @@ function movieSearch(){
 
 }
 
-function batchedCommands(){
+function batchedCommands(query){
     // take in a file of scripted commands to run for Liri
     fs.readFile("random.txt", "utf-8", (error, data) => {
         if (error) {
@@ -159,24 +164,12 @@ function batchedCommands(){
         var liriCmd = data.split(",");
 
         cmd = liriCmd[0];
-        searchItem = liriCmd[1];
+        query = liriCmd[1];
 
         console.log("Command: " +cmd);
-        console.log("Query: " +searchItem);
+        console.log("Query: " +query);
 
-        switch(cmd){
-            case "concert-this":
-                concertSearch();
-                break;
-        
-            case "spotify-this-song":
-                songSearch();
-                break;
-        
-            case "movie-this":
-                movieSearch();
-                break;
-        }
+        executeCommand(cmd, query);
 
 
 
@@ -184,3 +177,6 @@ function batchedCommands(){
 
     
 }
+
+console.log("User Command: " +userCmd+ "\nUser Search: " +userSearchItem);
+executeCommand(userCmd, userSearchItem);
