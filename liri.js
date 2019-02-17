@@ -5,6 +5,8 @@ var axios = require("axios");
 var Spotify = require("node-spotify-api");
 var keys = require("./keys.js");
 var moment = require('moment');
+var fs = require("fs");
+var exec = require("child_process").execFile;
 
 var command = process.argv[2];
 var searchItem = process.argv[3];
@@ -23,11 +25,16 @@ switch(command){
         movieSearch();
         break;
 
-     default:
+    case "do-what-it-says":
+        batchedCommands();
+        break;
+
+    default:
         console.log(`Valid commands are:
         concert-this <artist/band name>
         spotify-this-song <song name>
         movie-this <movie name>
+        do-what-it-say
         `); 
 }
 
@@ -141,8 +148,27 @@ function movieSearch(){
             console.log(err.config);
         });
 
+}
+
+function batchedCommands(){
+    // take in a file of scripted commands to run for Liri
+    fs.readFile("random.txt", "utf-8", (error, data) => {
+        if (error) {
+            return console.log(error);
+        }
+        console.log(data);
+        var liriCmd = data.split(",");
+        cmd = liriCmd[0];
+        searchItem = liriCmd[1];
+
+        console.log("Command: " +cmd);
+        console.log("Query: " +searchItem);
+
+        
 
 
 
+    })
 
+    
 }
