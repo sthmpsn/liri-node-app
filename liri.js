@@ -92,8 +92,6 @@ function songSearch(){
             results.forEach(function(result){
                 songCount++;
                 console.log("\[Song #" +songCount+ "\]");
-                // console.log(result.artists[0].name);
-                // console.log(result.external_urls.spotify);
                 console.log("  Artist: " +result.artists[0].name);
                 console.log("  Song Name: " +result.name);
                 console.log("  Album Name: " +result.album.name);
@@ -124,7 +122,6 @@ function movieSearch(){
             results = response.data;
             (searchItem === undefined) ? console.log("\n\[Default Movie Chosen\]") : console.log("\n\[User Movie Search Results\]"); 
             console.log("Here are the movie searh results for " +movie+ "\n");
-            // results.forEach(function(result){
             console.log("  Title: " +results.Title);
             console.log("  Year Released: " +results.Year);
             console.log("  IMDB Rating: " +results.Ratings[0].Value);
@@ -133,7 +130,6 @@ function movieSearch(){
             console.log("  Language: " +results.Language);
             console.log("  Plot: " +results.Plot);
             console.log("  Cast: " +results.Actors);
-            // });
         })
         .catch(function(err){
             if (err.response){
@@ -156,8 +152,12 @@ function batchedCommands(){
         if (error) {
             return console.log(error);
         }
-        console.log(data);
+
+        console.log("\[COMMAND FILE CONTENT\]\n" +data);
+        console.log("\[END OF FILE CONTENT\]");
+
         var liriCmd = data.split(",");
+
         cmd = liriCmd[0];
         searchItem = liriCmd[1];
 
