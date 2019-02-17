@@ -20,7 +20,7 @@ switch(command){
         break;
 
     case "movie-this":
-        concert();
+        movieSearch();
         break;
 
      default:
@@ -38,11 +38,12 @@ switch(command){
 function concertSearch(){
     //set the artist to the user search term.  Default to "Foo Fighters" if no search term present
     var artist = (searchItem != undefined) ? searchItem : "Foo Fighters";   
-
-    console.log("\nHere are the venues where " +artist+ " is playing\n");
+    
     axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp")
         .then(function(response) {
             results = response.data;
+            (searchItem === undefined) ? console.log("\n\[Default Artist Concert Chosen\]") : console.log("\n\[User Concert Search Results\]"); 
+            console.log("Here are the venues where " +artist+ " is playing\n");
             results.forEach(function(result){
                 console.log("Venue: " +result.venue.name);
                 console.log("City: " +result.venue.city);
@@ -108,4 +109,13 @@ function songSearch(){
             });
         }
     });
+}
+
+function movieSearch(){
+
+
+
+
+
+
 }
