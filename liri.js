@@ -17,7 +17,7 @@ switch(command){
         concertSearch();
         break;
 
-    case "spotify-this":
+    case "spotify-this-song":
         songSearch();
         break;
 
@@ -34,7 +34,7 @@ switch(command){
         concert-this <artist/band name>
         spotify-this-song <song name>
         movie-this <movie name>
-        do-what-it-say
+        do-what-it-says
         `); 
 }
 
@@ -164,7 +164,19 @@ function batchedCommands(){
         console.log("Command: " +cmd);
         console.log("Query: " +searchItem);
 
+        switch(cmd){
+            case "concert-this":
+                concertSearch();
+                break;
         
+            case "spotify-this-song":
+                songSearch();
+                break;
+        
+            case "movie-this":
+                movieSearch();
+                break;
+        }
 
 
 
