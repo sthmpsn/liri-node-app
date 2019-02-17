@@ -71,12 +71,10 @@ function concertSearch(){
 function songSearch(){
     var spotify = new Spotify(keys.spotify);
 
-    var category = 'track'; 
-    var song = (searchItem != undefined) ? searchItem : 'The Sign'; 
+    var category = 'track';   // easier to adjust if need to change down the line
+    var song = (searchItem != undefined) ? searchItem : 'The Sign';
     
-    console.log("Category: " +category);
-    console.log("Song Search: " +song);
-    console.log("SearcItem: "+searchItem);
+    console.log("Song Search Query: " +song+ "\n");
 
     spotify.search({ type: category, query: song, limit: 10 }, function(err, response) {
         if (err) {
@@ -85,18 +83,28 @@ function songSearch(){
         
         var results = response.tracks.items;
         if (searchItem != undefined){
+            var songCount = 0;
             results.forEach(function(result){
-                console.log(result.artists[0].name);
-                console.log(result.external_urls.spotify);
+                songCount++;
+                console.log("\[Song #" +songCount+ "\]");
+                // console.log(result.artists[0].name);
+                // console.log(result.external_urls.spotify);
+                console.log("  Artist: " +result.artists[0].name);
+                console.log("  Song Name: " +result.name);
+                console.log("  Album Name: " +result.album.name);
+                console.log("  Song URL: " +result.external_urls.spotify+ "\n");
             });               
         }
         else{
             results.forEach(function(result){
-                if (result.artist[0].name === "Ace of Base"){
-                    // console.log(result.external_urls.spotify);
-                    console.log("Found Ace of Base");
+                if ((result.artists[0].name) === "Ace of Base"){
+                    // console.log("Found Ace of Base, The Sign: " +result.external_urls.spotify);
+                    console.log("\[Default Song Chosen\]");
+                    console.log("  Artist: " +result.artists[0].name); 
+                    console.log("  Song Name: " +result.name);
+                    console.log("  Album Name: " +result.album.name);
+                    console.log("  Song URL: " +result.external_urls.spotify+ "\n");
                 }
-                
             });
         }
     });
