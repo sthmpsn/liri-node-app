@@ -1,3 +1,6 @@
+clone this repo, install node.js and run "node liri.js <valid command>"
+
+
 Valid commands are:
     concert-this <artist/band name> (will default to "Foo Fighters")
     spotify-this-song <song name>   (will default to "The Sign" from "Ace of Base")  <-- Note: Not my choice but HW requirements..who am I kidding I likedd that song in Junior High
