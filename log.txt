@@ -1,0 +1,657 @@
+[2019-02-17T23:08:25.871] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:08:25.875] [INFO] log.txt - Liri Initialized 02-17-2019 11:08pm
+
+[2019-02-17T23:08:25.877] [INFO] log.txt - User Command: undefined
+[2019-02-17T23:08:25.877] [INFO] log.txt - Valid commands are:
+            concert-this <artist/band name>
+            spotify-this-song <song name>
+            movie-this <movie name>
+            do-what-it-says
+            
+[2019-02-17T23:08:42.081] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:08:42.083] [INFO] log.txt - Liri Initialized 02-17-2019 11:08pm
+
+[2019-02-17T23:08:42.084] [INFO] log.txt - User Command: concert-this
+[2019-02-17T23:08:42.427] [INFO] log.txt - 
+[Default Artist Concert Chosen]
+[2019-02-17T23:08:42.428] [INFO] log.txt - Here are the venues where Foo Fighters is playing
+
+[2019-02-17T23:08:42.429] [INFO] log.txt - Venue: Epicenter Festival
+[2019-02-17T23:08:42.430] [INFO] log.txt - City: Rockingham
+[2019-02-17T23:08:42.430] [INFO] log.txt - State: NC
+[2019-02-17T23:08:42.430] [INFO] log.txt - Country: United States
+[2019-02-17T23:08:42.432] [INFO] log.txt - Date of Event: 05-12-2019
+
+[2019-02-17T23:08:42.433] [INFO] log.txt - Venue: The Fillmore New Orleans
+[2019-02-17T23:08:42.434] [INFO] log.txt - City: New Orleans
+[2019-02-17T23:08:42.434] [INFO] log.txt - State: LA
+[2019-02-17T23:08:42.434] [INFO] log.txt - Country: United States
+[2019-02-17T23:08:42.435] [INFO] log.txt - Date of Event: 05-15-2019
+
+[2019-02-17T23:08:42.436] [INFO] log.txt - Venue: The Fillmore New Orleans
+[2019-02-17T23:08:42.436] [INFO] log.txt - City: New Orleans
+[2019-02-17T23:08:42.437] [INFO] log.txt - State: LA
+[2019-02-17T23:08:42.437] [INFO] log.txt - Country: United States
+[2019-02-17T23:08:42.437] [INFO] log.txt - Date of Event: 05-16-2019
+
+[2019-02-17T23:08:42.438] [INFO] log.txt - Venue: Sonic Temple Festival (May 17-19)
+[2019-02-17T23:08:42.438] [INFO] log.txt - City: Columbus
+[2019-02-17T23:08:42.439] [INFO] log.txt - State: OH
+[2019-02-17T23:08:42.439] [INFO] log.txt - Country: United States
+[2019-02-17T23:08:42.440] [INFO] log.txt - Date of Event: 05-17-2019
+
+[2019-02-17T23:08:42.440] [INFO] log.txt - Venue: Pula Arena
+[2019-02-17T23:08:42.440] [INFO] log.txt - City: Pula
+[2019-02-17T23:08:42.441] [INFO] log.txt - Country: Croatia
+[2019-02-17T23:08:42.441] [INFO] log.txt - Date of Event: 06-18-2019
+
+[2019-02-17T23:08:42.442] [INFO] log.txt - Venue: Pula Arena
+[2019-02-17T23:08:42.442] [INFO] log.txt - City: Pula
+[2019-02-17T23:08:42.443] [INFO] log.txt - Country: Croatia
+[2019-02-17T23:08:42.443] [INFO] log.txt - Date of Event: 06-19-2019
+
+[2019-02-17T23:08:42.444] [INFO] log.txt - Venue: Southside Festival
+[2019-02-17T23:08:42.445] [INFO] log.txt - City: Neuhausen Ob Eck
+[2019-02-17T23:08:42.446] [INFO] log.txt - Country: Germany
+[2019-02-17T23:08:42.446] [INFO] log.txt - Date of Event: 06-21-2019
+
+[2019-02-17T23:08:42.447] [INFO] log.txt - Venue: Hurricane Festival
+[2019-02-17T23:08:42.448] [INFO] log.txt - City: Scheeßel
+[2019-02-17T23:08:42.449] [INFO] log.txt - Country: Germany
+[2019-02-17T23:08:42.450] [INFO] log.txt - Date of Event: 06-23-2019
+
+[2019-02-17T23:08:42.451] [INFO] log.txt - Venue: Faengslet
+[2019-02-17T23:08:42.451] [INFO] log.txt - City: Horsens
+[2019-02-17T23:08:42.452] [INFO] log.txt - Country: Denmark
+[2019-02-17T23:08:42.452] [INFO] log.txt - Date of Event: 06-25-2019
+
+[2019-02-17T23:08:42.453] [INFO] log.txt - Venue: Koengen Fortress
+[2019-02-17T23:08:42.454] [INFO] log.txt - City: Bergen
+[2019-02-17T23:08:42.455] [INFO] log.txt - Country: Norway
+[2019-02-17T23:08:42.456] [INFO] log.txt - Date of Event: 06-27-2019
+
+[2019-02-17T23:08:42.457] [INFO] log.txt - Venue: Lollapalooza Stockholm (28-29 June)
+[2019-02-17T23:08:42.457] [INFO] log.txt - City: Stockholm
+[2019-02-17T23:08:42.459] [INFO] log.txt - Country: Sweden
+[2019-02-17T23:08:42.460] [INFO] log.txt - Date of Event: 06-29-2019
+
+[2019-02-17T23:08:42.460] [INFO] log.txt - Venue: Sziget Festival
+[2019-02-17T23:08:42.461] [INFO] log.txt - City: Budapest
+[2019-02-17T23:08:42.462] [INFO] log.txt - Country: Hungary
+[2019-02-17T23:08:42.462] [INFO] log.txt - Date of Event: 08-13-2019
+
+[2019-02-17T23:08:42.464] [INFO] log.txt - Venue: Glasgow Summer Sessions
+[2019-02-17T23:08:42.465] [INFO] log.txt - City: Glasgow
+[2019-02-17T23:08:42.466] [INFO] log.txt - Country: United Kingdom
+[2019-02-17T23:08:42.466] [INFO] log.txt - Date of Event: 08-17-2019
+
+[2019-02-17T23:08:42.467] [INFO] log.txt - Venue: Vital Festival
+[2019-02-17T23:08:42.468] [INFO] log.txt - City: Belfast
+[2019-02-17T23:08:42.469] [INFO] log.txt - Country: United Kingdom
+[2019-02-17T23:08:42.470] [INFO] log.txt - Date of Event: 08-19-2019
+
+[2019-02-17T23:08:42.471] [INFO] log.txt - Venue: RDS Arena
+[2019-02-17T23:08:42.471] [INFO] log.txt - City: Dublin
+[2019-02-17T23:08:42.472] [INFO] log.txt - Country: Ireland
+[2019-02-17T23:08:42.473] [INFO] log.txt - Date of Event: 08-21-2019
+
+[2019-02-17T23:08:42.474] [INFO] log.txt - Venue: Leeds Festival
+[2019-02-17T23:08:42.475] [INFO] log.txt - City: Leeds
+[2019-02-17T23:08:42.475] [INFO] log.txt - Country: United Kingdom
+[2019-02-17T23:08:42.476] [INFO] log.txt - Date of Event: 08-23-2019
+
+[2019-02-17T23:08:42.477] [INFO] log.txt - Venue: Reading Festival
+[2019-02-17T23:08:42.477] [INFO] log.txt - City: Reading
+[2019-02-17T23:08:42.478] [INFO] log.txt - Country: United Kingdom
+[2019-02-17T23:08:42.479] [INFO] log.txt - Date of Event: 08-25-2019
+
+[2019-02-17T23:10:31.962] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:10:31.965] [INFO] log.txt - Liri Initialized 02-17-2019 11:10pm
+
+[2019-02-17T23:10:31.968] [INFO] log.txt - User Command: concert-this
+[2019-02-17T23:10:32.410] [INFO] log.txt - 
+[User Concert Search Results]
+[2019-02-17T23:10:32.413] [INFO] log.txt - Here are the venues where Minnesota Orchestra is playing
+
+[2019-02-17T23:11:01.149] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:11:01.153] [INFO] log.txt - Liri Initialized 02-17-2019 11:11pm
+
+[2019-02-17T23:11:01.154] [INFO] log.txt - User Command: concert-this
+[2019-02-17T23:11:01.581] [INFO] log.txt - 
+[User Concert Search Results]
+[2019-02-17T23:11:01.583] [INFO] log.txt - Here are the venues where Weezer is playing
+
+[2019-02-17T23:11:01.584] [INFO] log.txt - Venue: KFC Yum! Center
+[2019-02-17T23:11:01.585] [INFO] log.txt - City: Louisville
+[2019-02-17T23:11:01.586] [INFO] log.txt - State: KY
+[2019-02-17T23:11:01.586] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.589] [INFO] log.txt - Date of Event: 03-08-2019
+
+[2019-02-17T23:11:01.589] [INFO] log.txt - Venue: Colonial Life Arena
+[2019-02-17T23:11:01.590] [INFO] log.txt - City: Columbia
+[2019-02-17T23:11:01.591] [INFO] log.txt - State: SC
+[2019-02-17T23:11:01.592] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.592] [INFO] log.txt - Date of Event: 03-10-2019
+
+[2019-02-17T23:11:01.593] [INFO] log.txt - Venue: Madison Square Garden
+[2019-02-17T23:11:01.594] [INFO] log.txt - City: New York
+[2019-02-17T23:11:01.594] [INFO] log.txt - State: NY
+[2019-02-17T23:11:01.595] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.596] [INFO] log.txt - Date of Event: 03-12-2019
+
+[2019-02-17T23:11:01.596] [INFO] log.txt - Venue: Bell Centre
+[2019-02-17T23:11:01.597] [INFO] log.txt - City: Montréal
+[2019-02-17T23:11:01.598] [INFO] log.txt - Country: Canada
+[2019-02-17T23:11:01.598] [INFO] log.txt - Date of Event: 03-13-2019
+
+[2019-02-17T23:11:01.599] [INFO] log.txt - Venue: Times Union Center
+[2019-02-17T23:11:01.599] [INFO] log.txt - City: Albany
+[2019-02-17T23:11:01.600] [INFO] log.txt - State: NY
+[2019-02-17T23:11:01.601] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.601] [INFO] log.txt - Date of Event: 03-14-2019
+
+[2019-02-17T23:11:01.602] [INFO] log.txt - Venue: Foxwoods Resort Casino - Grand Theater
+[2019-02-17T23:11:01.603] [INFO] log.txt - City: Mashantucket
+[2019-02-17T23:11:01.603] [INFO] log.txt - State: CT
+[2019-02-17T23:11:01.604] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.605] [INFO] log.txt - Date of Event: 03-16-2019
+
+[2019-02-17T23:11:01.606] [INFO] log.txt - Venue: Royal Farms Arena
+[2019-02-17T23:11:01.607] [INFO] log.txt - City: Baltimore
+[2019-02-17T23:11:01.608] [INFO] log.txt - State: MD
+[2019-02-17T23:11:01.609] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.609] [INFO] log.txt - Date of Event: 03-17-2019
+
+[2019-02-17T23:11:01.610] [INFO] log.txt - Venue: Schottenstein Center
+[2019-02-17T23:11:01.611] [INFO] log.txt - City: Columbus
+[2019-02-17T23:11:01.612] [INFO] log.txt - State: OH
+[2019-02-17T23:11:01.613] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.613] [INFO] log.txt - Date of Event: 03-19-2019
+
+[2019-02-17T23:11:01.614] [INFO] log.txt - Venue: Van Andel Arena
+[2019-02-17T23:11:01.615] [INFO] log.txt - City: Grand Rapids
+[2019-02-17T23:11:01.616] [INFO] log.txt - State: MI
+[2019-02-17T23:11:01.616] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.617] [INFO] log.txt - Date of Event: 03-20-2019
+
+[2019-02-17T23:11:01.618] [INFO] log.txt - Venue: FedEx Forum
+[2019-02-17T23:11:01.619] [INFO] log.txt - City: Memphis
+[2019-02-17T23:11:01.620] [INFO] log.txt - State: TN
+[2019-02-17T23:11:01.620] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.622] [INFO] log.txt - Date of Event: 03-22-2019
+
+[2019-02-17T23:11:01.623] [INFO] log.txt - Venue: Enterprise Center
+[2019-02-17T23:11:01.624] [INFO] log.txt - City: St. Louis
+[2019-02-17T23:11:01.625] [INFO] log.txt - State: MO
+[2019-02-17T23:11:01.626] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.626] [INFO] log.txt - Date of Event: 03-24-2019
+
+[2019-02-17T23:11:01.627] [INFO] log.txt - Venue: Sprint Center
+[2019-02-17T23:11:01.628] [INFO] log.txt - City: Kansas City
+[2019-02-17T23:11:01.629] [INFO] log.txt - State: MO
+[2019-02-17T23:11:01.630] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.631] [INFO] log.txt - Date of Event: 03-26-2019
+
+[2019-02-17T23:11:01.632] [INFO] log.txt - Venue: BOK Center
+[2019-02-17T23:11:01.632] [INFO] log.txt - City: Tulsa
+[2019-02-17T23:11:01.633] [INFO] log.txt - State: OK
+[2019-02-17T23:11:01.634] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.635] [INFO] log.txt - Date of Event: 03-27-2019
+
+[2019-02-17T23:11:01.636] [INFO] log.txt - Venue: Wells Fargo Arena
+[2019-02-17T23:11:01.637] [INFO] log.txt - City: Des Moines
+[2019-02-17T23:11:01.638] [INFO] log.txt - State: IA
+[2019-02-17T23:11:01.639] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.640] [INFO] log.txt - Date of Event: 03-28-2019
+
+[2019-02-17T23:11:01.641] [INFO] log.txt - Venue: Xcel Energy Center
+[2019-02-17T23:11:01.641] [INFO] log.txt - City: St Paul
+[2019-02-17T23:11:01.642] [INFO] log.txt - State: MN
+[2019-02-17T23:11:01.642] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.643] [INFO] log.txt - Date of Event: 03-30-2019
+
+[2019-02-17T23:11:01.644] [INFO] log.txt - Venue: Alliant Energy Center - Veterans Memorial Coliseum
+[2019-02-17T23:11:01.644] [INFO] log.txt - City: Madison
+[2019-02-17T23:11:01.645] [INFO] log.txt - State: WI
+[2019-02-17T23:11:01.646] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.647] [INFO] log.txt - Date of Event: 03-31-2019
+
+[2019-02-17T23:11:01.648] [INFO] log.txt - Venue: Ford Idaho Center Arena
+[2019-02-17T23:11:01.648] [INFO] log.txt - City: Nampa
+[2019-02-17T23:11:01.649] [INFO] log.txt - State: ID
+[2019-02-17T23:11:01.650] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.650] [INFO] log.txt - Date of Event: 04-05-2019
+
+[2019-02-17T23:11:01.651] [INFO] log.txt - Venue: Moda Center
+[2019-02-17T23:11:01.652] [INFO] log.txt - City: Portland
+[2019-02-17T23:11:01.653] [INFO] log.txt - State: OR
+[2019-02-17T23:11:01.653] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.655] [INFO] log.txt - Date of Event: 04-06-2019
+
+[2019-02-17T23:11:01.656] [INFO] log.txt - Venue: Rogers Arena 
+[2019-02-17T23:11:01.657] [INFO] log.txt - City: Vancouver
+[2019-02-17T23:11:01.658] [INFO] log.txt - Country: Canada
+[2019-02-17T23:11:01.658] [INFO] log.txt - Date of Event: 04-07-2019
+
+[2019-02-17T23:11:01.659] [INFO] log.txt - Venue: Golden 1 Center
+[2019-02-17T23:11:01.660] [INFO] log.txt - City: Sacramento
+[2019-02-17T23:11:01.661] [INFO] log.txt - State: CA
+[2019-02-17T23:11:01.661] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.662] [INFO] log.txt - Date of Event: 04-09-2019
+
+[2019-02-17T23:11:01.664] [INFO] log.txt - Venue: Oracle Arena
+[2019-02-17T23:11:01.664] [INFO] log.txt - City: Oakland
+[2019-02-17T23:11:01.665] [INFO] log.txt - State: CA
+[2019-02-17T23:11:01.667] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.668] [INFO] log.txt - Date of Event: 04-10-2019
+
+[2019-02-17T23:11:01.668] [INFO] log.txt - Venue: Mandalay Bay Events Center
+[2019-02-17T23:11:01.669] [INFO] log.txt - City: Las Vegas
+[2019-02-17T23:11:01.670] [INFO] log.txt - State: NV
+[2019-02-17T23:11:01.671] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.671] [INFO] log.txt - Date of Event: 04-12-2019
+
+[2019-02-17T23:11:01.672] [INFO] log.txt - Venue: Coachella
+[2019-02-17T23:11:01.673] [INFO] log.txt - City: Indio
+[2019-02-17T23:11:01.673] [INFO] log.txt - State: CA
+[2019-02-17T23:11:01.674] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.675] [INFO] log.txt - Date of Event: 04-13-2019
+
+[2019-02-17T23:11:01.676] [INFO] log.txt - Venue: Coachella
+[2019-02-17T23:11:01.677] [INFO] log.txt - City: Indio
+[2019-02-17T23:11:01.678] [INFO] log.txt - State: CA
+[2019-02-17T23:11:01.679] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.679] [INFO] log.txt - Date of Event: 04-20-2019
+
+[2019-02-17T23:11:01.680] [INFO] log.txt - Venue: Rock Werchter 2019
+[2019-02-17T23:11:01.681] [INFO] log.txt - City: Werchter
+[2019-02-17T23:11:01.682] [INFO] log.txt - Country: Belgium
+[2019-02-17T23:11:01.682] [INFO] log.txt - Date of Event: 06-28-2019
+
+[2019-02-17T23:11:01.683] [INFO] log.txt - Venue: O2 Academy Brixton
+[2019-02-17T23:11:01.684] [INFO] log.txt - City: London
+[2019-02-17T23:11:01.684] [INFO] log.txt - Country: United Kingdom
+[2019-02-17T23:11:01.685] [INFO] log.txt - Date of Event: 06-29-2019
+
+[2019-02-17T23:11:01.686] [INFO] log.txt - Venue: Stadtpark
+[2019-02-17T23:11:01.688] [INFO] log.txt - City: Hamburg
+[2019-02-17T23:11:01.688] [INFO] log.txt - Country: Germany
+[2019-02-17T23:11:01.689] [INFO] log.txt - Date of Event: 07-02-2019
+
+[2019-02-17T23:11:01.690] [INFO] log.txt - Venue: Tivoli Vredenburg
+[2019-02-17T23:11:01.691] [INFO] log.txt - City: Utrecht
+[2019-02-17T23:11:01.691] [INFO] log.txt - Country: Netherlands
+[2019-02-17T23:11:01.692] [INFO] log.txt - Date of Event: 07-04-2019
+
+[2019-02-17T23:11:01.693] [INFO] log.txt - Venue: Eurockéennes
+[2019-02-17T23:11:01.694] [INFO] log.txt - City: Belfort
+[2019-02-17T23:11:01.694] [INFO] log.txt - Country: France
+[2019-02-17T23:11:01.695] [INFO] log.txt - Date of Event: 07-06-2019
+
+[2019-02-17T23:11:01.697] [INFO] log.txt - Venue: Sonic Park 
+[2019-02-17T23:11:01.698] [INFO] log.txt - City: Bologna
+[2019-02-17T23:11:01.699] [INFO] log.txt - Country: Italy
+[2019-02-17T23:11:01.700] [INFO] log.txt - Date of Event: 07-07-2019
+
+[2019-02-17T23:11:01.700] [INFO] log.txt - Venue: Xtra
+[2019-02-17T23:11:01.701] [INFO] log.txt - City: Zurich
+[2019-02-17T23:11:01.702] [INFO] log.txt - Country: Switzerland
+[2019-02-17T23:11:01.703] [INFO] log.txt - Date of Event: 07-08-2019
+
+[2019-02-17T23:11:01.704] [INFO] log.txt - Venue: NOS Alive Festival
+[2019-02-17T23:11:01.705] [INFO] log.txt - City: Oeiras
+[2019-02-17T23:11:01.705] [INFO] log.txt - Country: Portugal
+[2019-02-17T23:11:01.706] [INFO] log.txt - Date of Event: 07-11-2019
+
+[2019-02-17T23:11:01.707] [INFO] log.txt - Venue: Bilbao BBK (July 11th-13th, Single Day TBA)
+[2019-02-17T23:11:01.708] [INFO] log.txt - City: Bilbao
+[2019-02-17T23:11:01.710] [INFO] log.txt - Country: Spain
+[2019-02-17T23:11:01.710] [INFO] log.txt - Date of Event: 07-13-2019
+
+[2019-02-17T23:11:01.711] [INFO] log.txt - Venue: Grönan Live
+[2019-02-17T23:11:01.712] [INFO] log.txt - City: Stockholm
+[2019-02-17T23:11:01.713] [INFO] log.txt - Country: Sweden
+[2019-02-17T23:11:01.713] [INFO] log.txt - Date of Event: 07-16-2019
+
+[2019-02-17T23:11:01.714] [INFO] log.txt - Venue: Bukta Open Air Festival (July 18th-20th, Single Day TBA)
+[2019-02-17T23:11:01.715] [INFO] log.txt - City: Tromsø
+[2019-02-17T23:11:01.716] [INFO] log.txt - Country: Norway
+[2019-02-17T23:11:01.717] [INFO] log.txt - Date of Event: 07-18-2019
+
+[2019-02-17T23:11:01.718] [INFO] log.txt - Venue: Malakoff Festival (July 18th-20th, Single Day TBA)
+[2019-02-17T23:11:01.719] [INFO] log.txt - City: Nordfjordeid (sogn Og Fjordane)
+[2019-02-17T23:11:01.720] [INFO] log.txt - Country: Norway
+[2019-02-17T23:11:01.721] [INFO] log.txt - Date of Event: 07-20-2019
+
+[2019-02-17T23:11:01.721] [INFO] log.txt - Venue: Jazz Aspen Snowmass
+[2019-02-17T23:11:01.722] [INFO] log.txt - City: Snowmass
+[2019-02-17T23:11:01.723] [INFO] log.txt - State: CO
+[2019-02-17T23:11:01.723] [INFO] log.txt - Country: United States
+[2019-02-17T23:11:01.724] [INFO] log.txt - Date of Event: 08-30-2019
+
+[2019-02-17T23:11:18.631] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:11:18.636] [INFO] log.txt - Liri Initialized 02-17-2019 11:11pm
+
+[2019-02-17T23:11:18.637] [INFO] log.txt - User Command: spotify-this-song
+[2019-02-17T23:11:18.638] [INFO] log.txt - Song Search Query: The Sign
+
+[2019-02-17T23:11:19.110] [INFO] log.txt - [Default Song Chosen]
+[2019-02-17T23:11:19.112] [INFO] log.txt -   Artist: Ace of Base
+[2019-02-17T23:11:19.113] [INFO] log.txt -   Song Name: The Sign
+[2019-02-17T23:11:19.113] [INFO] log.txt -   Album Name: The Sign (US Album) [Remastered]
+[2019-02-17T23:11:19.114] [INFO] log.txt -   Song URL: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+
+[2019-02-17T23:11:50.491] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:11:50.496] [INFO] log.txt - Liri Initialized 02-17-2019 11:11pm
+
+[2019-02-17T23:11:50.498] [INFO] log.txt - User Command: spotify-this-song
+[2019-02-17T23:11:50.500] [INFO] log.txt - Song Search Query: Stairway to Heaven
+
+[2019-02-17T23:11:50.927] [INFO] log.txt - [Users Song Search Results]
+Here are the Song results for "Stairway to Heaven"
+
+[2019-02-17T23:11:50.930] [INFO] log.txt - [Song #1]
+[2019-02-17T23:11:50.932] [INFO] log.txt -   Artist: Led Zeppelin
+[2019-02-17T23:11:50.933] [INFO] log.txt -   Song Name: Stairway to Heaven - Page Remasters
+[2019-02-17T23:11:50.934] [INFO] log.txt -   Album Name: Led Zeppelin IV (Deluxe Edition)
+[2019-02-17T23:11:50.934] [INFO] log.txt -   Song URL: https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc
+
+[2019-02-17T23:11:50.935] [INFO] log.txt - [Song #2]
+[2019-02-17T23:11:50.936] [INFO] log.txt -   Artist: Led Zeppelin
+[2019-02-17T23:11:50.937] [INFO] log.txt -   Song Name: Stairway to Heaven
+[2019-02-17T23:11:50.937] [INFO] log.txt -   Album Name: Led Zeppelin IV
+[2019-02-17T23:11:50.938] [INFO] log.txt -   Song URL: https://open.spotify.com/track/51pQ7vY7WXzxskwloaeqyj
+
+[2019-02-17T23:11:50.938] [INFO] log.txt - [Song #3]
+[2019-02-17T23:11:50.939] [INFO] log.txt -   Artist: Led Zeppelin
+[2019-02-17T23:11:50.940] [INFO] log.txt -   Song Name: Stairway to Heaven - Page Remasters
+[2019-02-17T23:11:50.940] [INFO] log.txt -   Album Name: Led Zeppelin IV (Remastered Version)
+[2019-02-17T23:11:50.941] [INFO] log.txt -   Song URL: https://open.spotify.com/track/0RO9W1xJoUEpq5MEelddFb
+
+[2019-02-17T23:11:50.941] [INFO] log.txt - [Song #4]
+[2019-02-17T23:11:50.942] [INFO] log.txt -   Artist: Led Zeppelin
+[2019-02-17T23:11:50.943] [INFO] log.txt -   Song Name: Stairway to Heaven - Page Remasters EQ Version
+[2019-02-17T23:11:50.943] [INFO] log.txt -   Album Name: Mothership (Remastered)
+[2019-02-17T23:11:50.944] [INFO] log.txt -   Song URL: https://open.spotify.com/track/12wlYeErSUNGg1B5d64077
+
+[2019-02-17T23:11:50.944] [INFO] log.txt - [Song #5]
+[2019-02-17T23:11:50.945] [INFO] log.txt -   Artist: Heart
+[2019-02-17T23:11:50.946] [INFO] log.txt -   Song Name: Stairway to Heaven (Live At The Kennedy Center Honors)
+[2019-02-17T23:11:50.952] [INFO] log.txt -   Album Name: Stairway to Heaven (Live At The Kennedy Center Honors)
+[2019-02-17T23:11:50.953] [INFO] log.txt -   Song URL: https://open.spotify.com/track/6gOgTWY8trzXja4ZfmqFKt
+
+[2019-02-17T23:11:50.954] [INFO] log.txt - [Song #6]
+[2019-02-17T23:11:50.954] [INFO] log.txt -   Artist: The O'Jays
+[2019-02-17T23:11:50.955] [INFO] log.txt -   Song Name: Stairway to Heaven
+[2019-02-17T23:11:50.955] [INFO] log.txt -   Album Name: The Ultimate O'Jays
+[2019-02-17T23:11:50.956] [INFO] log.txt -   Song URL: https://open.spotify.com/track/5ApMFUXyc10iZPRwW36IWH
+
+[2019-02-17T23:11:50.957] [INFO] log.txt - [Song #7]
+[2019-02-17T23:11:50.957] [INFO] log.txt -   Artist: Rodrigo y Gabriela
+[2019-02-17T23:11:50.958] [INFO] log.txt -   Song Name: Stairway To Heaven - Remastered
+[2019-02-17T23:11:50.959] [INFO] log.txt -   Album Name: Rodrigo Y Gabriela (Deluxe)
+[2019-02-17T23:11:50.959] [INFO] log.txt -   Song URL: https://open.spotify.com/track/0lD9A4mUR7y92JjqT04Rfw
+
+[2019-02-17T23:11:50.960] [INFO] log.txt - [Song #8]
+[2019-02-17T23:11:50.961] [INFO] log.txt -   Artist: Led Zeppelin
+[2019-02-17T23:11:50.961] [INFO] log.txt -   Song Name: Stairway To Heaven - Remastered
+[2019-02-17T23:11:50.962] [INFO] log.txt -   Album Name: The Song Remains The Same (Remastered)
+[2019-02-17T23:11:50.963] [INFO] log.txt -   Song URL: https://open.spotify.com/track/3sxIm3lTgdvXJdNHNn64BS
+
+[2019-02-17T23:11:50.964] [INFO] log.txt - [Song #9]
+[2019-02-17T23:11:50.965] [INFO] log.txt -   Artist: Led Zeppelin
+[2019-02-17T23:11:50.965] [INFO] log.txt -   Song Name: Stairway to Heaven - Page Remasters
+[2019-02-17T23:11:50.967] [INFO] log.txt -   Album Name: An Introduction To Led Zeppelin
+[2019-02-17T23:11:50.968] [INFO] log.txt -   Song URL: https://open.spotify.com/track/5qrBMEsCQPTsev7yAnMR2U
+
+[2019-02-17T23:11:50.969] [INFO] log.txt - [Song #10]
+[2019-02-17T23:11:50.970] [INFO] log.txt -   Artist: Rockabye Baby!
+[2019-02-17T23:11:50.970] [INFO] log.txt -   Song Name: Stairway to Heaven
+[2019-02-17T23:11:50.971] [INFO] log.txt -   Album Name: Lullaby Renditions of Led Zeppelin
+[2019-02-17T23:11:50.971] [INFO] log.txt -   Song URL: https://open.spotify.com/track/4SdTKkQPYOpo6UKLVHmfUu
+
+[2019-02-17T23:12:06.433] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:12:06.440] [INFO] log.txt - Liri Initialized 02-17-2019 11:12pm
+
+[2019-02-17T23:12:06.442] [INFO] log.txt - User Command: movie-this
+[2019-02-17T23:12:06.519] [INFO] log.txt - 
+[Default Movie Chosen]
+[2019-02-17T23:12:06.522] [INFO] log.txt - Here are the movie searh results for Mr. Nobody
+
+[2019-02-17T23:12:06.523] [INFO] log.txt -   Title: Mr. Nobody
+[2019-02-17T23:12:06.524] [INFO] log.txt -   Year Released: 2009
+[2019-02-17T23:12:06.524] [INFO] log.txt -   IMDB Rating: 7.8/10
+[2019-02-17T23:12:06.525] [INFO] log.txt -   Rotten Tomatoes Rating: 67%
+[2019-02-17T23:12:06.525] [INFO] log.txt -   Country Produced In: Belgium, Germany, Canada, France, USA, UK
+[2019-02-17T23:12:06.525] [INFO] log.txt -   Language: English, Mohawk
+[2019-02-17T23:12:06.527] [INFO] log.txt -   Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+[2019-02-17T23:12:06.527] [INFO] log.txt -   Cast: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+[2019-02-17T23:12:19.151] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:12:19.155] [INFO] log.txt - Liri Initialized 02-17-2019 11:12pm
+
+[2019-02-17T23:12:19.157] [INFO] log.txt - User Command: movie-this
+[2019-02-17T23:12:19.277] [INFO] log.txt - 
+[User Movie Search Results]
+[2019-02-17T23:12:19.279] [INFO] log.txt - Here are the movie searh results for Anchorman
+
+[2019-02-17T23:12:19.280] [INFO] log.txt -   Title: Anchorman
+[2019-02-17T23:12:19.281] [INFO] log.txt -   Year Released: 2009
+[2019-02-17T23:12:19.281] [INFO] log.txt -   IMDB Rating: 5.9/10
+[2019-02-17T23:12:59.427] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:12:59.432] [INFO] log.txt - Liri Initialized 02-17-2019 11:12pm
+
+[2019-02-17T23:12:59.433] [INFO] log.txt - User Command: movie-this
+[2019-02-17T23:12:59.603] [INFO] log.txt - 
+[User Movie Search Results]
+[2019-02-17T23:12:59.604] [INFO] log.txt - Here are the movie searh results for Spiderman into the Spiderverse
+
+[2019-02-17T23:12:59.606] [INFO] log.txt -   Title: undefined
+[2019-02-17T23:12:59.606] [INFO] log.txt -   Year Released: undefined
+[2019-02-17T23:13:12.903] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:13:12.907] [INFO] log.txt - Liri Initialized 02-17-2019 11:13pm
+
+[2019-02-17T23:13:12.909] [INFO] log.txt - User Command: movie-this
+[2019-02-17T23:13:13.080] [INFO] log.txt - 
+[User Movie Search Results]
+[2019-02-17T23:13:13.083] [INFO] log.txt - Here are the movie searh results for The Matrix reloaded
+
+[2019-02-17T23:13:13.084] [INFO] log.txt -   Title: The Matrix Reloaded
+[2019-02-17T23:13:13.084] [INFO] log.txt -   Year Released: 2003
+[2019-02-17T23:13:13.085] [INFO] log.txt -   IMDB Rating: 7.2/10
+[2019-02-17T23:13:13.086] [INFO] log.txt -   Rotten Tomatoes Rating: 73%
+[2019-02-17T23:13:13.086] [INFO] log.txt -   Country Produced In: USA
+[2019-02-17T23:13:13.087] [INFO] log.txt -   Language: English, French
+[2019-02-17T23:13:13.088] [INFO] log.txt -   Plot: Following the events of The Matrix (1999), Neo and the rebel leaders estimate they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. Neo must decide how he can save Trinity from a dark fate in his dreams.
+[2019-02-17T23:13:13.089] [INFO] log.txt -   Cast: Ray Anthony, Christine Anu, Andy Arness, Alima Ashton-Sheibu
+[2019-02-17T23:13:52.883] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-17T23:13:52.887] [INFO] log.txt - Liri Initialized 02-17-2019 11:13pm
+
+[2019-02-17T23:13:52.888] [INFO] log.txt - User Command: do-what-it-says
+[2019-02-17T23:13:52.897] [INFO] log.txt - [COMMAND FILE CONTENT]
+movie-this,"The Matrix"
+spotify-this-song,"higher love"
+concert-this,"Maroon 5"
+[2019-02-17T23:13:52.901] [INFO] log.txt - [END OF FILE CONTENT]
+
+[2019-02-17T23:13:52.902] [INFO] log.txt - Command: movie-this
+[2019-02-17T23:13:52.903] [INFO] log.txt - Query: "The Matrix"
+
+[2019-02-17T23:13:52.904] [INFO] log.txt - Command: spotify-this-song
+[2019-02-17T23:13:52.905] [INFO] log.txt - Query: "higher love"
+
+[2019-02-17T23:13:52.906] [INFO] log.txt - Song Search Query: "higher love"
+
+[2019-02-17T23:13:52.913] [INFO] log.txt - Command: concert-this
+[2019-02-17T23:13:52.915] [INFO] log.txt - Query: "Maroon 5"
+
+[2019-02-17T23:13:52.988] [INFO] log.txt - 
+[User Movie Search Results]
+[2019-02-17T23:13:52.988] [INFO] log.txt - Here are the movie searh results for "The Matrix"
+
+[2019-02-17T23:13:52.989] [INFO] log.txt -   Title: The Matrix
+[2019-02-17T23:13:52.990] [INFO] log.txt -   Year Released: 1999
+[2019-02-17T23:13:52.991] [INFO] log.txt -   IMDB Rating: 8.7/10
+[2019-02-17T23:13:52.992] [INFO] log.txt -   Rotten Tomatoes Rating: 88%
+[2019-02-17T23:13:52.992] [INFO] log.txt -   Country Produced In: USA
+[2019-02-17T23:13:52.993] [INFO] log.txt -   Language: English
+[2019-02-17T23:13:52.993] [INFO] log.txt -   Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+[2019-02-17T23:13:52.994] [INFO] log.txt -   Cast: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+[2019-02-17T23:13:53.259] [INFO] log.txt - 
+[User Concert Search Results]
+[2019-02-17T23:13:53.260] [INFO] log.txt - Here are the venues where Maroon 5 is playing
+
+[2019-02-17T23:13:53.261] [INFO] log.txt - Venue: Brisbane Entertainment Centre
+[2019-02-17T23:13:53.263] [INFO] log.txt - City: Brisbane
+[2019-02-17T23:13:53.263] [INFO] log.txt - Country: Australia
+[2019-02-17T23:13:53.265] [INFO] log.txt - Date of Event: 02-19-2019
+
+[2019-02-17T23:13:53.266] [INFO] log.txt - Venue: Qudos Bank Arena
+[2019-02-17T23:13:53.267] [INFO] log.txt - City: Sydney
+[2019-02-17T23:13:53.267] [INFO] log.txt - Country: Australia
+[2019-02-17T23:13:53.268] [INFO] log.txt - Date of Event: 02-21-2019
+
+[2019-02-17T23:13:53.269] [INFO] log.txt - Venue: Rod Laver Arena
+[2019-02-17T23:13:53.269] [INFO] log.txt - City: Melbourne
+[2019-02-17T23:13:53.270] [INFO] log.txt - Country: Australia
+[2019-02-17T23:13:53.270] [INFO] log.txt - Date of Event: 02-22-2019
+
+[2019-02-17T23:13:53.271] [INFO] log.txt - Venue: Tokyo Dome
+[2019-02-17T23:13:53.272] [INFO] log.txt - City: Tokyo
+[2019-02-17T23:13:53.273] [INFO] log.txt - State: Tokyo
+[2019-02-17T23:13:53.274] [INFO] log.txt - Country: Japan
+[2019-02-17T23:13:53.275] [INFO] log.txt - Date of Event: 02-25-2019
+
+[2019-02-17T23:13:53.276] [INFO] log.txt - Venue: Gocheok Sky Dome
+[2019-02-17T23:13:53.276] [INFO] log.txt - City: Seoul
+[2019-02-17T23:13:53.277] [INFO] log.txt - Country: South Korea
+[2019-02-17T23:13:53.277] [INFO] log.txt - Date of Event: 02-27-2019
+
+[2019-02-17T23:13:53.278] [INFO] log.txt - Venue: National Stadium
+[2019-02-17T23:13:53.279] [INFO] log.txt - City: Kaohsiung City
+[2019-02-17T23:13:53.279] [INFO] log.txt - Country: Taiwan
+[2019-02-17T23:13:53.280] [INFO] log.txt - Date of Event: 03-01-2019
+
+[2019-02-17T23:13:53.281] [INFO] log.txt - Venue: Venetian Cotai Arena
+[2019-02-17T23:13:53.281] [INFO] log.txt - City: Macau
+[2019-02-17T23:13:53.282] [INFO] log.txt - Country: China
+[2019-02-17T23:13:53.283] [INFO] log.txt - Date of Event: 03-03-2019
+
+[2019-02-17T23:13:53.284] [INFO] log.txt - Venue: SM Mall Of Asia
+[2019-02-17T23:13:53.284] [INFO] log.txt - City: Manila
+[2019-02-17T23:13:53.285] [INFO] log.txt - Country: Philippines
+[2019-02-17T23:13:53.285] [INFO] log.txt - Date of Event: 03-05-2019
+
+[2019-02-17T23:13:53.286] [INFO] log.txt - Venue: NATIONAL STADIUM
+[2019-02-17T23:13:53.287] [INFO] log.txt - City: Singapore
+[2019-02-17T23:13:53.288] [INFO] log.txt - Country: Singapore
+[2019-02-17T23:13:53.289] [INFO] log.txt - Date of Event: 03-07-2019
+
+[2019-02-17T23:13:53.290] [INFO] log.txt - Venue: CHALLENGER HALL
+[2019-02-17T23:13:53.290] [INFO] log.txt - City: Bangkok
+[2019-02-17T23:13:53.291] [INFO] log.txt - Country: Thailand
+[2019-02-17T23:13:53.291] [INFO] log.txt - Date of Event: 03-09-2019
+
+[2019-02-17T23:13:53.293] [INFO] log.txt - Venue: Mollenpark
+[2019-02-17T23:13:53.294] [INFO] log.txt - City: Aalborg
+[2019-02-17T23:13:53.295] [INFO] log.txt - Country: Denmark
+[2019-02-17T23:13:53.296] [INFO] log.txt - Date of Event: 06-01-2019
+
+[2019-02-17T23:13:53.296] [INFO] log.txt - Venue: Lanxess Arena
+[2019-02-17T23:13:53.297] [INFO] log.txt - City: Cologne
+[2019-02-17T23:13:53.298] [INFO] log.txt - Country: Germany
+[2019-02-17T23:13:53.299] [INFO] log.txt - Date of Event: 06-03-2019
+
+[2019-02-17T23:13:53.300] [INFO] log.txt - Venue: O2 ARENA
+[2019-02-17T23:13:53.300] [INFO] log.txt - City: Prague
+[2019-02-17T23:13:53.301] [INFO] log.txt - Country: Czech Republic
+[2019-02-17T23:13:53.302] [INFO] log.txt - Date of Event: 06-05-2019
+
+[2019-02-17T23:13:53.304] [INFO] log.txt - Venue: Tauron Arena
+[2019-02-17T23:13:53.304] [INFO] log.txt - City: Kraków
+[2019-02-17T23:13:53.305] [INFO] log.txt - Country: Poland
+[2019-02-17T23:13:53.306] [INFO] log.txt - Date of Event: 06-06-2019
+
+[2019-02-17T23:13:53.306] [INFO] log.txt - Venue: Ziggo Dome
+[2019-02-17T23:13:53.307] [INFO] log.txt - City: Amsterdam
+[2019-02-17T23:13:53.308] [INFO] log.txt - Country: Netherlands
+[2019-02-17T23:13:53.308] [INFO] log.txt - Date of Event: 06-10-2019
+
+[2019-02-17T23:13:53.309] [INFO] log.txt - Venue: AccorHotels Arena
+[2019-02-17T23:13:53.309] [INFO] log.txt - City: Paris
+[2019-02-17T23:13:53.310] [INFO] log.txt - Country: France
+[2019-02-17T23:13:53.311] [INFO] log.txt - Date of Event: 06-11-2019
+
+[2019-02-17T23:13:53.343] [INFO] log.txt - [Users Song Search Results]
+Here are the Song results for ""higher love""
+
+[2019-02-17T23:13:53.346] [INFO] log.txt - [Song #1]
+[2019-02-17T23:13:53.347] [INFO] log.txt -   Artist: Steve Winwood
+[2019-02-17T23:13:53.348] [INFO] log.txt -   Song Name: Higher Love - Single Version
+[2019-02-17T23:13:53.349] [INFO] log.txt -   Album Name: Pure '80s: #1s
+[2019-02-17T23:13:53.350] [INFO] log.txt -   Song URL: https://open.spotify.com/track/7eLDSFTG6bJGZsYAF3LTv4
+
+[2019-02-17T23:13:53.351] [INFO] log.txt - [Song #2]
+[2019-02-17T23:13:53.351] [INFO] log.txt -   Artist: James Vincent McMorrow
+[2019-02-17T23:13:53.352] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-17T23:13:53.352] [INFO] log.txt -   Album Name: We Don't Eat EP
+[2019-02-17T23:13:53.353] [INFO] log.txt -   Song URL: https://open.spotify.com/track/3rocTBn0NsGrVAHGOZNzH5
+
+[2019-02-17T23:13:53.354] [INFO] log.txt - [Song #3]
+[2019-02-17T23:13:53.354] [INFO] log.txt -   Artist: Steve Winwood
+[2019-02-17T23:13:53.355] [INFO] log.txt -   Song Name: Higher Love - Full Album Version
+[2019-02-17T23:13:53.356] [INFO] log.txt -   Album Name: Back In The High Life
+[2019-02-17T23:13:53.356] [INFO] log.txt -   Song URL: https://open.spotify.com/track/1vhNjOtmfgoGy4J6ijCUSS
+
+[2019-02-17T23:13:53.357] [INFO] log.txt - [Song #4]
+[2019-02-17T23:13:53.358] [INFO] log.txt -   Artist: Charming Horses
+[2019-02-17T23:13:53.359] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-17T23:13:53.360] [INFO] log.txt -   Album Name: Higher Love
+[2019-02-17T23:13:53.360] [INFO] log.txt -   Song URL: https://open.spotify.com/track/3Md4WAeVbgzTpqBPJqmAFM
+
+[2019-02-17T23:13:53.361] [INFO] log.txt - [Song #5]
+[2019-02-17T23:13:53.362] [INFO] log.txt -   Artist: Seven Lions
+[2019-02-17T23:13:53.362] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-17T23:13:53.363] [INFO] log.txt -   Album Name: Higher Love
+[2019-02-17T23:13:53.363] [INFO] log.txt -   Song URL: https://open.spotify.com/track/4L5FRe68MeXk40tnlgFAH0
+
+[2019-02-17T23:13:53.364] [INFO] log.txt - [Song #6]
+[2019-02-17T23:13:53.365] [INFO] log.txt -   Artist: FKJ
+[2019-02-17T23:13:53.365] [INFO] log.txt -   Song Name: Higher in Love
+[2019-02-17T23:13:53.366] [INFO] log.txt -   Album Name: Take Off
+[2019-02-17T23:13:53.366] [INFO] log.txt -   Song URL: https://open.spotify.com/track/3uy0WUeHrujCPAdLeB4rDq
+
+[2019-02-17T23:13:53.367] [INFO] log.txt - [Song #7]
+[2019-02-17T23:13:53.368] [INFO] log.txt -   Artist: Steve Winwood
+[2019-02-17T23:13:53.369] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-17T23:13:53.370] [INFO] log.txt -   Album Name: Revolutions: The Very Best Of Steve Winwood
+[2019-02-17T23:13:53.370] [INFO] log.txt -   Song URL: https://open.spotify.com/track/05zVpfGL1QJDBpSULS8llJ
+
+[2019-02-17T23:13:53.372] [INFO] log.txt - [Song #8]
+[2019-02-17T23:13:53.372] [INFO] log.txt -   Artist: Steve Winwood
+[2019-02-17T23:13:53.373] [INFO] log.txt -   Song Name: Higher Love - Single Version
+[2019-02-17T23:13:53.374] [INFO] log.txt -   Album Name: '80s Pop Number 1's
+[2019-02-17T23:13:53.374] [INFO] log.txt -   Song URL: https://open.spotify.com/track/2HcokWTBGI5EjGeNVLgd8Q
+
+[2019-02-17T23:13:53.375] [INFO] log.txt - [Song #9]
+[2019-02-17T23:13:53.376] [INFO] log.txt -   Artist: State of Sound
+[2019-02-17T23:13:53.377] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-17T23:13:53.377] [INFO] log.txt -   Album Name: Higher Love
+[2019-02-17T23:13:53.379] [INFO] log.txt -   Song URL: https://open.spotify.com/track/4nYKI0JqkWfr1YbmH4ADEM
+
+[2019-02-17T23:13:53.380] [INFO] log.txt - [Song #10]
+[2019-02-17T23:13:53.380] [INFO] log.txt -   Artist: Depeche Mode
+[2019-02-17T23:13:53.381] [INFO] log.txt -   Song Name: Higher Love - 2006 Remastered Version
+[2019-02-17T23:13:53.382] [INFO] log.txt -   Album Name: Songs Of Faith And Devotion (2006 Remastered Edition)
+[2019-02-17T23:13:53.382] [INFO] log.txt -   Song URL: https://open.spotify.com/track/1Cgfok7A9wACCmILu4DxyK
+

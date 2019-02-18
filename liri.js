@@ -6,10 +6,31 @@ var Spotify = require("node-spotify-api");
 var keys = require("./keys.js");
 var moment = require('moment');
 var fs = require("fs");
+var log4js = require('log4js');
 
 var userCmd = process.argv[2];
 var userSearchItem = process.argv[3];
 
+// setup logging to console and logfile in one command through the use of "log4js" package
+log4js.configure({
+    appenders: {
+        console: { type: 'console' },
+        logFile: { type: 'file', filename: 'log.txt' }
+    },
+    categories: { default: {appenders: ['console','logFile'], level: 'info'}}
+});
+
+var logger = log4js.getLogger('log.txt');
+
+
+function logIt(logInfo){
+    fs.appendFile("log.txt", logInfo, function(err){
+        // If the code experiences any errors it will log the error to the console.
+        if (err) {
+            return console.log(err);
+        }
+    });
+}
 
 function executeCommand(cmd, query){
     switch(cmd){
@@ -30,7 +51,7 @@ function executeCommand(cmd, query){
             break;
 
         default:
-            console.log(`Valid commands are:
+            logger.info(`Valid commands are:
             concert-this <artist/band name>
             spotify-this-song <song name>
             movie-this <movie name>
@@ -50,14 +71,14 @@ function concertSearch(query){
     axios.get('https://rest.bandsintown.com/artists/' + artist + '/events?app_id=codingbootcamp')
         .then(function(response) {
             results = response.data;
-            (query === undefined) ? console.log("\n\[Default Artist Concert Chosen\]") : console.log("\n\[User Concert Search Results\]"); 
-            console.log("Here are the venues where " +artist+ " is playing\n");
+            (query === undefined) ? logger.info("\n\[Default Artist Concert Chosen\]") : logger.info("\n\[User Concert Search Results\]"); 
+            logger.info("Here are the venues where " +artist+ " is playing\n");
             results.forEach(function(result){
-                console.log("Venue: " +result.venue.name);
-                console.log("City: " +result.venue.city);
-                (result.venue.region != "") ? console.log("State: " +result.venue.region) : "";
-                console.log("Country: " +result.venue.country);
-                console.log("Date of Event: " +moment(result.datetime).format("MM-DD-YYYY")+ "\n");
+                logger.info("Venue: " +result.venue.name);
+                logger.info("City: " +result.venue.city);
+                (result.venue.region != "") ? logger.info("State: " +result.venue.region) : "";
+                logger.info("Country: " +result.venue.country);
+                logger.info("Date of Event: " +moment(result.datetime).format("MM-DD-YYYY")+ "\n");
             });
         })
         .catch(function(err){
@@ -82,7 +103,7 @@ function songSearch(query){
     var category = 'track';   // easier to adjust if need to change down the line
     var song = (query != undefined) ? query : 'The Sign';
     
-    console.log("Song Search Query: " +song+ "\n");
+    logger.info("Song Search Query: " +song+ "\n");
 
     spotify.search({ type: category, query: song, limit: 10 }, function(err, response) {
         if (err) {
@@ -92,25 +113,24 @@ function songSearch(query){
         var results = response.tracks.items;
         if (query != undefined){
             var songCount = 0;
-            console.log("\[Users Song Search Results\]\nHere are the Song results for \"" +query+ "\"\n");
+            logger.info("\[Users Song Search Results\]\nHere are the Song results for \"" +query+ "\"\n");
             results.forEach(function(result){
                 songCount++;
-                console.log("\[Song #" +songCount+ "\]");
-                console.log("  Artist: " +result.artists[0].name);
-                console.log("  Song Name: " +result.name);
-                console.log("  Album Name: " +result.album.name);
-                console.log("  Song URL: " +result.external_urls.spotify+ "\n");
+                logger.info("\[Song #" +songCount+ "\]");
+                logger.info("  Artist: " +result.artists[0].name);
+                logger.info("  Song Name: " +result.name);
+                logger.info("  Album Name: " +result.album.name);
+                logger.info("  Song URL: " +result.external_urls.spotify+ "\n");
             });               
         }
         else{
             results.forEach(function(result){
                 if ((result.artists[0].name) === "Ace of Base"){
-                    // console.log("Found Ace of Base, The Sign: " +result.external_urls.spotify);
-                    console.log("\[Default Song Chosen\]");
-                    console.log("  Artist: " +result.artists[0].name); 
-                    console.log("  Song Name: " +result.name);
-                    console.log("  Album Name: " +result.album.name);
-                    console.log("  Song URL: " +result.external_urls.spotify+ "\n");
+                    logger.info("\[Default Song Chosen\]");
+                    logger.info("  Artist: " +result.artists[0].name); 
+                    logger.info("  Song Name: " +result.name);
+                    logger.info("  Album Name: " +result.album.name);
+                    logger.info("  Song URL: " +result.external_urls.spotify+ "\n");
                 }
             });
         }
@@ -124,16 +144,16 @@ function movieSearch(query){
     axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy")
         .then(function(response) {
             results = response.data;
-            (query === undefined) ? console.log("\n\[Default Movie Chosen\]") : console.log("\n\[User Movie Search Results\]"); 
-            console.log("Here are the movie searh results for " +movie+ "\n");
-            console.log("  Title: " +results.Title);
-            console.log("  Year Released: " +results.Year);
-            console.log("  IMDB Rating: " +results.Ratings[0].Value);
-            console.log("  Rotten Tomatoes Rating: " +results.Ratings[1].Value);
-            console.log("  Country Produced In: " +results.Country);
-            console.log("  Language: " +results.Language);
-            console.log("  Plot: " +results.Plot);
-            console.log("  Cast: " +results.Actors);
+            (query === undefined) ? logger.info("\n\[Default Movie Chosen\]") : logger.info("\n\[User Movie Search Results\]"); 
+            logger.info("Here are the movie searh results for " +movie+ "\n");
+            logger.info("  Title: " +results.Title);
+            logger.info("  Year Released: " +results.Year);
+            logger.info("  IMDB Rating: " +results.Ratings[0].Value);
+            logger.info("  Rotten Tomatoes Rating: " +results.Ratings[1].Value);
+            logger.info("  Country Produced In: " +results.Country);
+            logger.info("  Language: " +results.Language);
+            logger.info("  Plot: " +results.Plot);
+            logger.info("  Cast: " +results.Actors);
         })
         .catch(function(err){
             if (err.response){
@@ -157,8 +177,8 @@ function batchedCommands(query){
             return console.log(error);
         }
 
-        console.log("\[COMMAND FILE CONTENT\]\n" +data);
-        console.log("\[END OF FILE CONTENT\]\n");
+        logger.info("\[COMMAND FILE CONTENT\]\n" +data);
+        logger.info("\[END OF FILE CONTENT\]\n");
 
         var cmdList = data.split("\r\n");
 
@@ -166,8 +186,8 @@ function batchedCommands(query){
             var liriCmd = cmd.split(",");
             cmd = liriCmd[0];
             query = liriCmd[1];
-            console.log("Command: " +cmd);
-            console.log("Query: " +query+ "\n");
+            logger.info("Command: " +cmd);
+            logger.info("Query: " +query+ "\n");
             executeCommand(cmd, query);
         });
 
@@ -176,6 +196,8 @@ function batchedCommands(query){
     
 }
 
-console.log("\[hal9000@ODYSSEY\] > Hello Dave...You're looking well today\n");  //2001 Space Odyssey joke
-console.log("User Command: " +userCmd);
+logger.info("\[hal9000@ODYSSEY\] > Hello Dave...You're looking well today\n");  //2001 Space Odyssey joke
+
+logger.info("Liri Initialized " +moment().format("MM-DD-YYYY hh:mma")+ "\n");
+logger.info("User Command: " +userCmd);
 executeCommand(userCmd, userSearchItem);
