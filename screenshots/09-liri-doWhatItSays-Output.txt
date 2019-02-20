@@ -1,0 +1,178 @@
+this is loaded
+[32m[2019-02-20T17:18:49.734] [INFO] log.txt - [39m[hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[32m[2019-02-20T17:18:49.738] [INFO] log.txt - [39mLiri Initialized 02-20-2019 05:18pm
+
+[32m[2019-02-20T17:18:49.738] [INFO] log.txt - [39mUser Command: do-what-it-says
+[32m[2019-02-20T17:18:49.750] [INFO] log.txt - [39m[COMMAND FILE CONTENT]
+movie-this,"The Matrix"
+spotify-this-song,"higher love"
+concert-this,"Maroon 5"
+[32m[2019-02-20T17:18:49.750] [INFO] log.txt - [39m[END OF FILE CONTENT]
+
+[32m[2019-02-20T17:18:49.751] [INFO] log.txt - [39mCommand: movie-this
+[32m[2019-02-20T17:18:49.751] [INFO] log.txt - [39mQuery: "The Matrix"
+
+[32m[2019-02-20T17:18:49.751] [INFO] log.txt - [39mCommand: spotify-this-song
+[32m[2019-02-20T17:18:49.752] [INFO] log.txt - [39mQuery: "higher love"
+
+[32m[2019-02-20T17:18:49.753] [INFO] log.txt - [39mSong Search Query: "higher love"
+
+[32m[2019-02-20T17:18:49.763] [INFO] log.txt - [39mCommand: concert-this
+[32m[2019-02-20T17:18:49.763] [INFO] log.txt - [39mQuery: "Maroon 5"
+
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m
+[User Movie Search Results]
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39mHere are the movie searh results for "The Matrix"
+
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  Title: The Matrix
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  Year Released: 1999
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  IMDB Rating: 8.7/10
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  Rotten Tomatoes Rating: 88%
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  Country Produced In: USA
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  Language: English
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+[32m[2019-02-20T17:18:49.832] [INFO] log.txt - [39m  Cast: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+[32m[2019-02-20T17:18:49.983] [INFO] log.txt - [39m
+[User Concert Search Results]
+[32m[2019-02-20T17:18:49.983] [INFO] log.txt - [39mHere are the venues where Maroon 5 is playing
+
+[32m[2019-02-20T17:18:49.983] [INFO] log.txt - [39mVenue: Qudos Bank Arena
+[32m[2019-02-20T17:18:49.983] [INFO] log.txt - [39mCity: Sydney
+[32m[2019-02-20T17:18:49.983] [INFO] log.txt - [39mCountry: Australia
+[32m[2019-02-20T17:18:49.985] [INFO] log.txt - [39mDate of Event: 02-21-2019
+
+[32m[2019-02-20T17:18:49.985] [INFO] log.txt - [39mVenue: Rod Laver Arena
+[32m[2019-02-20T17:18:49.985] [INFO] log.txt - [39mCity: Melbourne
+[32m[2019-02-20T17:18:49.985] [INFO] log.txt - [39mCountry: Australia
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mDate of Event: 02-22-2019
+
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mVenue: Tokyo Dome
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mCity: Tokyo
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mState: Tokyo
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mCountry: Japan
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mDate of Event: 02-25-2019
+
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mVenue: Gocheok Sky Dome
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mCity: Seoul
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mCountry: South Korea
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mDate of Event: 02-27-2019
+
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mVenue: National Stadium
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mCity: Kaohsiung City
+[32m[2019-02-20T17:18:49.986] [INFO] log.txt - [39mCountry: Taiwan
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mDate of Event: 03-01-2019
+
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mVenue: Venetian Cotai Arena
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mCity: Macau
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mCountry: China
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mDate of Event: 03-03-2019
+
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mVenue: SM Mall Of Asia
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mCity: Manila
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mCountry: Philippines
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mDate of Event: 03-05-2019
+
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mVenue: NATIONAL STADIUM
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mCity: Singapore
+[32m[2019-02-20T17:18:49.987] [INFO] log.txt - [39mCountry: Singapore
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mDate of Event: 03-07-2019
+
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mVenue: CHALLENGER HALL
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mCity: Bangkok
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mCountry: Thailand
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mDate of Event: 03-09-2019
+
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mVenue: Mollenpark
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mCity: Aalborg
+[32m[2019-02-20T17:18:49.988] [INFO] log.txt - [39mCountry: Denmark
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mDate of Event: 06-01-2019
+
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mVenue: Lanxess Arena
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mCity: Cologne
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mCountry: Germany
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mDate of Event: 06-03-2019
+
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mVenue: O2 ARENA
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mCity: Prague
+[32m[2019-02-20T17:18:49.989] [INFO] log.txt - [39mCountry: Czech Republic
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mDate of Event: 06-05-2019
+
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mVenue: Tauron Arena
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mCity: Kraków
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mCountry: Poland
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mDate of Event: 06-06-2019
+
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mVenue: Ziggo Dome
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mCity: Amsterdam
+[32m[2019-02-20T17:18:49.990] [INFO] log.txt - [39mCountry: Netherlands
+[32m[2019-02-20T17:18:49.991] [INFO] log.txt - [39mDate of Event: 06-10-2019
+
+[32m[2019-02-20T17:18:49.991] [INFO] log.txt - [39mVenue: AccorHotels Arena
+[32m[2019-02-20T17:18:49.991] [INFO] log.txt - [39mCity: Paris
+[32m[2019-02-20T17:18:49.991] [INFO] log.txt - [39mCountry: France
+[32m[2019-02-20T17:18:49.991] [INFO] log.txt - [39mDate of Event: 06-11-2019
+
+[32m[2019-02-20T17:18:50.165] [INFO] log.txt - [39m[Users Song Search Results]
+Here are the Song results for ""higher love""
+
+[32m[2019-02-20T17:18:50.165] [INFO] log.txt - [39m[Song #1]
+[32m[2019-02-20T17:18:50.165] [INFO] log.txt - [39m  Artist: Steve Winwood
+[32m[2019-02-20T17:18:50.165] [INFO] log.txt - [39m  Song Name: Higher Love - Single Version
+[32m[2019-02-20T17:18:50.165] [INFO] log.txt - [39m  Album Name: Pure '80s: #1s
+[32m[2019-02-20T17:18:50.165] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/7eLDSFTG6bJGZsYAF3LTv4
+
+[32m[2019-02-20T17:18:50.165] [INFO] log.txt - [39m[Song #2]
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Artist: James Vincent McMorrow
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Song Name: Higher Love
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Album Name: We Don't Eat EP
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/3rocTBn0NsGrVAHGOZNzH5
+
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m[Song #3]
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Artist: Steve Winwood
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Song Name: Higher Love - Full Album Version
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Album Name: Back In The High Life
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/1vhNjOtmfgoGy4J6ijCUSS
+
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m[Song #4]
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Artist: Charming Horses
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Song Name: Higher Love
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Album Name: Higher Love
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/3Md4WAeVbgzTpqBPJqmAFM
+
+[32m[2019-02-20T17:18:50.166] [INFO] log.txt - [39m[Song #5]
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Artist: Seven Lions
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Song Name: Higher Love
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Album Name: Higher Love
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/4L5FRe68MeXk40tnlgFAH0
+
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m[Song #6]
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Artist: FKJ
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Song Name: Higher in Love
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Album Name: Take Off
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/3uy0WUeHrujCPAdLeB4rDq
+
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m[Song #7]
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Artist: Steve Winwood
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Song Name: Higher Love
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Album Name: Revolutions: The Very Best Of Steve Winwood
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/05zVpfGL1QJDBpSULS8llJ
+
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m[Song #8]
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Artist: State of Sound
+[32m[2019-02-20T17:18:50.167] [INFO] log.txt - [39m  Song Name: Higher Love
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m  Album Name: Higher Love
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/4nYKI0JqkWfr1YbmH4ADEM
+
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m[Song #9]
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m  Artist: Steve Winwood
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m  Song Name: Higher Love - Single Version
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m  Album Name: '80s Pop Number 1's
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/2HcokWTBGI5EjGeNVLgd8Q
+
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m[Song #10]
+[32m[2019-02-20T17:18:50.168] [INFO] log.txt - [39m  Artist: Depeche Mode
+[32m[2019-02-20T17:18:50.169] [INFO] log.txt - [39m  Song Name: Higher Love - 2006 Remastered Version
+[32m[2019-02-20T17:18:50.169] [INFO] log.txt - [39m  Album Name: Songs Of Faith And Devotion (2006 Remastered Edition)
+[32m[2019-02-20T17:18:50.169] [INFO] log.txt - [39m  Song URL: https://open.spotify.com/track/1Cgfok7A9wACCmILu4DxyK
+
