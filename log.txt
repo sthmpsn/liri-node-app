@@ -1245,3 +1245,90 @@ Here are the Song results for ""higher love""
 [2019-02-20T20:05:43.742] [INFO] log.txt -   Album Name: Songs Of Faith And Devotion (2006 Remastered Edition)
 [2019-02-20T20:05:43.743] [INFO] log.txt -   Song URL: https://open.spotify.com/track/1Cgfok7A9wACCmILu4DxyK
 
+[2019-02-20T20:09:00.576] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-20T20:09:00.581] [INFO] log.txt - Liri Initialized 02-20-2019 08:09pm
+
+[2019-02-20T20:09:00.582] [INFO] log.txt - User Command: spotify-this-song
+[2019-02-20T20:09:00.583] [INFO] log.txt - Song Search Query: Higher Love
+
+[2019-02-20T20:09:01.085] [INFO] log.txt - [Users Song Search Results]
+Here are the Song results for "Higher Love"
+
+[2019-02-20T20:09:01.087] [INFO] log.txt - [Song #1]
+[2019-02-20T20:09:01.088] [INFO] log.txt -   Artist: Steve Winwood
+[2019-02-20T20:09:01.089] [INFO] log.txt -   Song Name: Higher Love - Single Version
+[2019-02-20T20:09:01.089] [INFO] log.txt -   Album Name: Pure '80s: #1s
+[2019-02-20T20:09:01.090] [INFO] log.txt -   Song URL: https://open.spotify.com/track/7eLDSFTG6bJGZsYAF3LTv4
+
+[2019-02-20T20:09:01.090] [INFO] log.txt - [Song #2]
+[2019-02-20T20:09:01.091] [INFO] log.txt -   Artist: Jackie Wilson
+[2019-02-20T20:09:01.091] [INFO] log.txt -   Song Name: (Your Love Keeps Lifting Me) Higher & Higher
+[2019-02-20T20:09:01.092] [INFO] log.txt -   Album Name: The Ultimate Jackie Wilson
+[2019-02-20T20:09:01.092] [INFO] log.txt -   Song URL: https://open.spotify.com/track/4TBBPZks71c60whhq0PgdP
+
+[2019-02-20T20:09:01.093] [INFO] log.txt - [Song #3]
+[2019-02-20T20:09:01.093] [INFO] log.txt -   Artist: James Vincent McMorrow
+[2019-02-20T20:09:01.094] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-20T20:09:01.094] [INFO] log.txt -   Album Name: We Don't Eat EP
+[2019-02-20T20:09:01.095] [INFO] log.txt -   Song URL: https://open.spotify.com/track/3rocTBn0NsGrVAHGOZNzH5
+
+[2019-02-20T20:09:01.096] [INFO] log.txt - [Song #4]
+[2019-02-20T20:09:01.096] [INFO] log.txt -   Artist: Jackie Wilson
+[2019-02-20T20:09:01.097] [INFO] log.txt -   Song Name: (Your Love Keeps Lifting Me) Higher & Higher
+[2019-02-20T20:09:01.098] [INFO] log.txt -   Album Name: Higher And Higher
+[2019-02-20T20:09:01.100] [INFO] log.txt -   Song URL: https://open.spotify.com/track/5qyq1H5OPMlfuvZQ1wQNo7
+
+[2019-02-20T20:09:01.101] [INFO] log.txt - [Song #5]
+[2019-02-20T20:09:01.102] [INFO] log.txt -   Artist: Steve Winwood
+[2019-02-20T20:09:01.103] [INFO] log.txt -   Song Name: Higher Love - Full Album Version
+[2019-02-20T20:09:01.104] [INFO] log.txt -   Album Name: Back In The High Life
+[2019-02-20T20:09:01.105] [INFO] log.txt -   Song URL: https://open.spotify.com/track/1vhNjOtmfgoGy4J6ijCUSS
+
+[2019-02-20T20:09:01.106] [INFO] log.txt - [Song #6]
+[2019-02-20T20:09:01.106] [INFO] log.txt -   Artist: Charming Horses
+[2019-02-20T20:09:01.107] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-20T20:09:01.107] [INFO] log.txt -   Album Name: Higher Love
+[2019-02-20T20:09:01.108] [INFO] log.txt -   Song URL: https://open.spotify.com/track/3Md4WAeVbgzTpqBPJqmAFM
+
+[2019-02-20T20:09:01.109] [INFO] log.txt - [Song #7]
+[2019-02-20T20:09:01.109] [INFO] log.txt -   Artist: Seven Lions
+[2019-02-20T20:09:01.110] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-20T20:09:01.110] [INFO] log.txt -   Album Name: Higher Love
+[2019-02-20T20:09:01.111] [INFO] log.txt -   Song URL: https://open.spotify.com/track/4L5FRe68MeXk40tnlgFAH0
+
+[2019-02-20T20:09:01.112] [INFO] log.txt - [Song #8]
+[2019-02-20T20:09:01.113] [INFO] log.txt -   Artist: Anuhea
+[2019-02-20T20:09:01.113] [INFO] log.txt -   Song Name: Higher Than the Clouds
+[2019-02-20T20:09:01.114] [INFO] log.txt -   Album Name: For Love
+[2019-02-20T20:09:01.115] [INFO] log.txt -   Song URL: https://open.spotify.com/track/13Dq0Ed9wyBU7mpoENkaS0
+
+[2019-02-20T20:09:01.116] [INFO] log.txt - [Song #9]
+[2019-02-20T20:09:01.116] [INFO] log.txt -   Artist: FKJ
+[2019-02-20T20:09:01.117] [INFO] log.txt -   Song Name: Higher in Love
+[2019-02-20T20:09:01.117] [INFO] log.txt -   Album Name: Take Off
+[2019-02-20T20:09:01.118] [INFO] log.txt -   Song URL: https://open.spotify.com/track/3uy0WUeHrujCPAdLeB4rDq
+
+[2019-02-20T20:09:01.119] [INFO] log.txt - [Song #10]
+[2019-02-20T20:09:01.120] [INFO] log.txt -   Artist: Steve Winwood
+[2019-02-20T20:09:01.121] [INFO] log.txt -   Song Name: Higher Love
+[2019-02-20T20:09:01.121] [INFO] log.txt -   Album Name: Revolutions: The Very Best Of Steve Winwood
+[2019-02-20T20:09:01.122] [INFO] log.txt -   Song URL: https://open.spotify.com/track/05zVpfGL1QJDBpSULS8llJ
+
+[2019-02-20T20:09:58.438] [INFO] log.txt - [hal9000@ODYSSEY] > Hello Dave...You're looking well today
+
+[2019-02-20T20:09:58.443] [INFO] log.txt - Liri Initialized 02-20-2019 08:09pm
+
+[2019-02-20T20:09:58.444] [INFO] log.txt - User Command: movie-this
+[2019-02-20T20:09:58.521] [INFO] log.txt - 
+[User Movie Search Results]
+[2019-02-20T20:09:58.522] [INFO] log.txt - Here are the movie searh results for The Matrix
+
+[2019-02-20T20:09:58.523] [INFO] log.txt -   Title: The Matrix
+[2019-02-20T20:09:58.524] [INFO] log.txt -   Year Released: 1999
+[2019-02-20T20:09:58.525] [INFO] log.txt -   IMDB Rating: 8.7/10
+[2019-02-20T20:09:58.525] [INFO] log.txt -   Rotten Tomatoes Rating: 88%
+[2019-02-20T20:09:58.526] [INFO] log.txt -   Country Produced In: USA
+[2019-02-20T20:09:58.526] [INFO] log.txt -   Language: English
+[2019-02-20T20:09:58.527] [INFO] log.txt -   Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+[2019-02-20T20:09:58.527] [INFO] log.txt -   Cast: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
