@@ -9,7 +9,8 @@ var fs = require("fs");
 var log4js = require('log4js');
 
 var userCmd = process.argv[2];
-var userSearchItem = process.argv[3];
+// Joining the remaining arguments since an actor or tv show name may contain spaces
+var userSearchItem = process.argv.slice(3).join(" ");
 
 // setup logging to console and logfile in one command through the use of "log4js" package
 log4js.configure({
