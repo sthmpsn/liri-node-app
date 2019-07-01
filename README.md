@@ -1,10 +1,7 @@
 # Liri-Node-App
-Liri Node App - Node CLI App
-
-# Description
 CLI client that takes in a predefined command that takes in user parameters and calls the corresponding API and returns a result.
 
-# Instructions
+## Instructions
 **Clone this repo, install node.js and run "node liri.js \<valid command\>"**
 
 **Valid commands are:**
@@ -17,8 +14,7 @@ CLI client that takes in a predefined command that takes in user parameters and 
 * ***do-what-it-says***
    * Pulls from the "random.txt" file which contains a command,query set on each line that gets read in and executed
 
-
-# Techonologies used
+## Techonologies
 * Node
 * Express
 * MySQL
@@ -27,7 +23,7 @@ CLI client that takes in a predefined command that takes in user parameters and 
 * jQuery
 * Heroku + JawsDB (for deploying MySQL on Heroku)
 
-# Example Usage
+## Example Usage
 * **No Agruments**
 ![No Arguments](screenshots/01-liri-noArguments.JPG)
 
