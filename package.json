@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/sthmpsn/liri-node-app#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "dotenv": "^6.2.0",
     "log4js": "^4.0.2",
     "moment": "^2.24.0",
