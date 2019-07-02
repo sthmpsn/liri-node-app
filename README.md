@@ -23,7 +23,7 @@ CLI client that takes in a predefined command that takes in user parameters and 
 * jQuery
 * Heroku + JawsDB (for deploying MySQL on Heroku)
 
-## Example Usage
+## Screenshots
 * **No Agruments**
 ![No Arguments](screenshots/01-liri-noArguments.JPG)
 
@@ -52,7 +52,8 @@ CLI client that takes in a predefined command that takes in user parameters and 
 ![doWhatItSays No Arguments](screenshots/09-liri-doWhatItSays-noArgs.jpg)
 
 
-
+## Contributors
+* Steve Thompson (sthmpsn)
 
 
 
