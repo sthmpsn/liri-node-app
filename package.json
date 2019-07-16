@@ -20,8 +20,8 @@
   "dependencies": {
     "axios": "^0.18.1",
     "dotenv": "^6.2.0",
-    "log4js": "^4.0.2",
+    "log4js": "^4.5.1",
     "moment": "^2.24.0",
-    "node-spotify-api": "^1.0.7"
+    "node-spotify-api": "^1.1.1"
   }
 }
